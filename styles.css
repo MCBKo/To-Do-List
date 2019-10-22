@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet');
+
+body {
+  background: white;
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 10px;
+  background: lightslategray;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.intro {
+  margin: 30px 0px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #dfdddd;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+p {
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: yellowgreen;
+  font-style: italic;
+}
+
+#enter {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: lightslategrey;
+  background-color: yellowgreen;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: normal;
+}
+
+#enter:hover {
+  background-color: yellowgreen;
+  color: black;
+}
+
+ul {
+  text-align: left;
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  width: 85%;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: lightslategrey;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5 ease;
+}
+
+li:hover {
+  background: rgb(121, 131, 133);
+}
+
+li > button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: yellowgreen;
+  font-weight: 800;
+}
+
+input {
+  border-radius: 5px;
+  min-width: 65%;
+  padding: 5px;
+  border: none;
+}
+
+.done {
+  background: lightslategrey !important;
+  color: yellowgreen;
+  text-decoration: line-through;
+}
+
+.delete {
+  display: none;
+}
